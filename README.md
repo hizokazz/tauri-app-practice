@@ -26,21 +26,21 @@ and then
 bun install
 ```
 
-#### Compile and Hot-Reload for Development
+### Compile and Hot-Reload for Development
 
-### Desktop Development
+#### Desktop Development
 
 ```sh
 bun dev
 ```
 
-### Android Development
+#### Android Development
 
 ```sh
 bun dev:android
 ```
 
-### iOS Development
+#### iOS Development
 
 ```sh
 bun dev:ios

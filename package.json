@@ -5,6 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:desktop": "tauri dev",
+    "dev:android": "tauri android dev",
+    "dev:ios": "tauri ios dev",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "tauri": "tauri"

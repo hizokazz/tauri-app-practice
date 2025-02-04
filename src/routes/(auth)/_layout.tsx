@@ -39,7 +39,7 @@ export default function LayoutComponent() {
 
     return (
         <div className="relative h-screen w-screen">
-            <div className="sticky left-0 right-0 top-0 z-10 flex h-[8vh] items-center justify-between bg-white px-3 shadow-navbar">
+            <div className="sticky left-0 right-0 top-0 z-10 flex h-[8vh] items-center justify-between bg-background px-3 shadow-navbar">
                 <Button
                     className="[&_svg]:size-8"
                     size="icon"
@@ -55,7 +55,7 @@ export default function LayoutComponent() {
                     <ChevronLeft />
                 </Button>
                 <p className="font-sarabun-bold text-xl">{title}</p>
-                <div>{endContent}</div>
+                <div className="p-1">{endContent}</div>
             </div>
             <Outlet />
         </div>

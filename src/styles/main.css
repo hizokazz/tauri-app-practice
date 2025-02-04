@@ -1,0 +1,16 @@
+@import './tailwind.css';
+
+@font-face {
+    font-family: 'Sarabun-Regular';
+    src: url('../assets/fonts/Sarabun-Regular.woff');
+}
+
+@font-face {
+    font-family: 'Sarabun-SemiBold';
+    src: url('../assets/fonts/Sarabun-SemiBold.woff');
+}
+
+@font-face {
+    font-family: 'Sarabun-Bold';
+    src: url('../assets/fonts/Sarabun-Bold.woff');
+}
